@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "snapnsplit-1243",
+    "project_number": "11404148150",
+    "name": "SnapNSplit"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11404148150:android:2914c4ad7fcb0902",
+        "client_id": "android:com.example.sony.snapnsplit",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.sony.snapnsplit",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11404148150-jg0k4k1ps2os9n15dlen3g7jk8u7v7q8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sony.snapnsplit",
+            "certificate_hash": "0F1D7FF24ABE16E5A3EFE28678521A7D9F5F9E89"
+          }
+        },
+        {
+          "client_id": "11404148150-ciqf8be79lmku04f0cntio8d1eokiqlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sony.snapnsplit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- To use account credentials -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        </activity>
+        <activity android:name=".ActivityLogin" />
+        <activity android:name=".ConfidentialDetails" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Snap_Split"
+            android:label="@string/title_activity_snap__split"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pay" />
+        <activity android:name=".Tag_Friends">
+            <intent-filter>
+                <action android:name="com.example.sony.snapnsplit.Tag_Friends" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Start_Up_Screen" />
+        <activity android:name=".Tansaction_History" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Sync_Contacts" />
+        <activity android:name=".Change_mpin" />
+        <activity android:name=".Help_Activity" />
+        <activity android:name=".Confirm" />
+        <activity
+            android:name=".AnswersActivity"
+            android:label="@string/title_activity_answers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Service_Trail"></activity>
+
+        <service android:name="com.example.sony.snapnsplit.ServiceNotification" >
+        </service>
+
+    </application>
+
+</manifest>

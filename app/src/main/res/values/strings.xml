@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SnapNSplit</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_enter_name">Enter your name</string>
+    <string name="string_enter_phoneno">Enter your Phone Number</string>
+    <string name="string_choose_password">Choose your password</string>
+    <string name="string_choose_ReEnter_password">Re-Enter your password</string>
+    <string name="string_enter_email">Enter your email</string>
+    <string name="button_register">Register</string>
+    <string name="button_login">Login</string>
+    <string name="string_enter_Accountno">Enter your Account Number</string>
+    <string name="string_already_registered">Already Registered?</string>
+    <string name="string_enter_IFSC">Enter IFSC code</string>
+    <string name="string_username">Enter Email ID</string>
+    <string name="textview_password">Enter Password</string>
+    <string name="string_user_login">Login</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="title_activity_snap_nsplit">SnapNSplit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- For TTS -->
+
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="title_activity_answers">AnswersActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_contacts__fragment">contacts_Fragment</string>
+    <string name="title_activity_snap__split">Snap_Split</string>
+</resources>

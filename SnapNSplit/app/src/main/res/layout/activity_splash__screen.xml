@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sony.snapnsplit.Splash_Screen"
+    android:background="@drawable/border">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="44sp"
+        android:text="Snap 'N' Split"
+        android:textColor="#59c1c1"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/share"
+        android:layout_alignTop="@+id/tv"
+        android:layout_alignBottom="@+id/progress" />
+
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="240dp"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true">
+    </ProgressBar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading...."
+        android:textSize="20dp"
+        android:textColor="#2d5278"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="450dp"
+        android:id="@+id/textView7" />
+
+
+</RelativeLayout>
+
+
